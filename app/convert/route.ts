@@ -4,7 +4,7 @@ import fs from "fs/promises";
 import path from "path";
 import { NextRequest, NextResponse } from "next/server";
 
-export const maxDuration = 300;
+export const maxDuration = 60;
 
 interface QualitySettings {
   [key: string]: string[];
